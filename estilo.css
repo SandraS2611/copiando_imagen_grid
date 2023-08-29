@@ -1,0 +1,101 @@
+body {
+  display: grid;
+  width: 100%;
+  height: 100vh;
+  grid-template-columns: 10% 10% 10% 10% 10% 10% 10% 10% 10% 10%;
+  grid-template-rows: 5% 5% 5% 10% 10% 10% 10% 10% 10% 10% 10% 10%;
+  margin: 4px;
+}
+
+#borde {
+  border-radius: 5px;
+}
+
+.header {
+  background-color: rgb(247, 93, 93);
+  grid-column-start: 1;
+  grid-column-end: 11;
+  grid-row-start: 1;
+  grid-row-end: 4;
+  margin-bottom: 4px;
+}
+
+.nav {
+  background-color: rgb(243, 243, 124);
+  grid-column-start: 9;
+  grid-column-end: 10;
+  grid-row-start: 2;
+  width: 230px;
+}
+
+.main {
+  background-color: rgb(72, 126, 192);
+  grid-column-start: 1;
+  grid-column-end: 8;
+  grid-row-start: 4;
+  grid-row-end: 12;
+  margin-right: 2px;
+  margin-bottom: 10px;
+}
+
+.article {
+  background-color: rgb(78, 205, 78);
+  margin: 10px;
+  margin-top: 25px;
+  grid-column-start: 1;
+  grid-column-end: 8;
+  grid-row-start: 4;
+  grid-row-end: 10;
+}
+
+#costados {
+  margin: 15px;
+  border-radius: 5px;
+  height: 75px;
+}
+
+.section {
+  background-color: rgb(145, 238, 145);
+  margin: 5px;
+}
+
+.footer-main {
+  background-color: rgb(234, 155, 208);
+  grid-column-start: 1;
+  grid-column-end: 8;
+  grid-row-start: 10;
+  grid-row-end: 11;
+  margin: 5px;
+}
+
+.aside {
+  background-color: rgb(96, 180, 232);
+  grid-column-start: 8;
+  grid-column-end: 11;
+  grid-row-start: 4;
+  grid-row-end: 12;
+  margin-left: 2px;
+  margin-bottom: 10px;
+}
+
+.section-a1 {
+  background-color: rgb(145, 238, 145);
+  margin: 5px;
+  height: 75px;  
+}
+
+.section-a2 {
+    background-color:rgb(145, 238, 145);
+    margin: 5px;
+    height: 205px;  
+  }
+
+.footer {
+  background-color: rgb(234, 155, 208);
+  grid-column-start: 1;
+  grid-column-end: 11;
+  grid-row-start: 12;
+  grid-row-end: 13;
+  margin-top: 2px;
+  margin-bottom: 10px;
+}
